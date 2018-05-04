@@ -1,6 +1,9 @@
-public struct swift_skeleton {
-    public init() {
-    }
+import Foundation // Comment this out to get lldb to work
 
-    public var text = "Hello, World!"
+public struct swift_skeleton {
+    public var text: String
+
+    public init() {
+        text = "Hello, World!"
+    }
 }
